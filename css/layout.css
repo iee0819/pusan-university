@@ -1,0 +1,49 @@
+:root {
+    --primary-color: #005aab;
+    --text-color: #202124;
+    --line-color: #ddd;
+    --w-color: #fff;
+    --b-color: #333;
+}
+
+body {
+    color: var(--text-color);
+}
+
+.inner {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+@media (max-width:1202px) {
+    .inner {
+        margin: 0 16px;
+    }
+}
+
+
+.default {
+    padding: 80px 0;
+}
+
+.default .title {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.default .title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.default .title p {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
