@@ -1084,11 +1084,11 @@
     }
 
     .main_event .arrows .prev {
-        left: 50%;
+        left: 60%;
     }
 
     .main_event .arrows .next {
-        right: 13%;
+        right: 16px;
 
     }
 }
