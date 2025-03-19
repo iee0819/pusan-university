@@ -771,6 +771,9 @@
         gap: 30px;
 
         /* r */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
         margin-bottom: 56px;
         align-items: center;
 
@@ -785,7 +788,10 @@
 
         border-radius: 32px;
 
-
+        /* r */
+        width: 40vw;
+        height: 30vw;
+        align-items: center;
 
     }
 
@@ -797,9 +803,6 @@
         transition: 0.4s;
 
         /* r */
-        width: 200px;
-        height: 200px;
-
     }
 
     .main_concept .inner .itm::before {
@@ -826,9 +829,6 @@
         width: 50px;
         height: 50px;
 
-        /* r */
-
-
     }
 
     .main_concept .inner .itm i img {
@@ -838,8 +838,6 @@
         /* r */
         width: 40px;
         height: 40px;
-
-
     }
 
     .main_concept .inner .itm_box p {
@@ -862,7 +860,7 @@
 
         /* r */
         font-size: 3vw;
-        margin-top: 16px
+        margin-top: 24px
     }
 
     .main_concept .quick_service {
@@ -1086,7 +1084,7 @@
     }
 
     .main_event .arrows .prev {
-        left: 60%;
+        left: 50%;
     }
 
     .main_event .arrows .next {
